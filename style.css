@@ -1,0 +1,23 @@
+h3
+{
+    font-size: 25px;
+}
+
+.btn-primary:hover
+{
+ background-color: plum;
+ color:blue;   
+}
+
+canvas
+{
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example 
+{
+    from{box-shadow: 10px 10px 38px yellowgreen;}
+    to {box-shadow: 10px 10px 38px purple;}
+}
